@@ -3,7 +3,7 @@ const cors = require('cors'); // Import CORS
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Replace with your frontend URL in production
+    origin: 'https://bfhl-frontend-9rww.vercel.app', // Replace with your frontend URL in production
     methods: 'GET,POST',
     optionsSuccessStatus: 200 // For older browsers
 };
