@@ -101,7 +101,7 @@ app.post('/bfhl', (req, res) => {
         "numbers": numbers,
         "alphabets": alphabets,
         "highest_lowercase_alphabet": highestLowercase ? [highestLowercase] : [],
-        "file_valid": isValid
+        "file_valid": false
     };
 
     if(isValid){
